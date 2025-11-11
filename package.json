@@ -1,4 +1,5 @@
 {
+      "homepage": "https://johnz.github.io/react_portifolio",
       "name": "Modern Portfolio Profile",
       "version": "0.1.0",
       "private": true,
@@ -53,6 +54,8 @@
             "vite": "6.3.5"
       },
       "scripts": {
+            "predeploy": "npm run build",
+            "deploy": "gh-pages -d build",
             "dev": "vite",
             "build": "vite build"
       }
